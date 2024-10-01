@@ -1,3 +1,4 @@
-set mouse=
-syntax enable
-set statusline+=%F
+set mouse=                                                                                                                                                                            
+syntax enable                                                                                                                                                                         
+set statusline+=%F                                                                                                                                                                    
+color torte
