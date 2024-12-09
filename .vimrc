@@ -12,3 +12,4 @@ color elflord
 highlight ExtraSpaces ctermbg=DarkGrey guibg=DarkGrey
 autocmd BufRead,BufNewFile * match ExtraSpaces / \{2}/
 autocmd TextChanged * :%s/\s\+$//e
+autocmd BufWritePre * :%s/\s\+$//e
