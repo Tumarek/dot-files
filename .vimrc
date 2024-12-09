@@ -9,6 +9,6 @@ set tabstop=2
 set shiftwidth=2
 set statusline+=%F
 color elflord
-highlight ExtraSpaces ctermbg=red guibg=red
+highlight ExtraSpaces ctermbg=DarkGrey guibg=DarkGrey
 autocmd BufRead,BufNewFile * match ExtraSpaces /  \{2}/
 autocmd TextChanged * :%s/\s\+$//e
