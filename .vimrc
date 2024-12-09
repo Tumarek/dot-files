@@ -1,10 +1,14 @@
-syntax enable
+syntax enable 
 set mouse=
-set background=dark
+set background=dark 
 set number
-set expandtab
-set tabstop=2
+set list
+set listchars=tab:▸\ ,trail:· 
+set expandtab 
+set tabstop=2 
 set shiftwidth=2
-set paste
+set paste 
 set statusline+=%F
-color torte
+color elflord 
+highlight ExtraSpaces ctermbg=DarkGrey guibg=DarkGrey 
+autocmd BufRead,BufNewFile * match ExtraSpaces /\{1}/
