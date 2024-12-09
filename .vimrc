@@ -3,7 +3,7 @@ set mouse=
 set background=dark
 set number
 set list
-set listchars=tab:▸\
+set listchars=tab:▸\ ,trail:·
 set expandtab
 set tabstop=2
 set shiftwidth=2
