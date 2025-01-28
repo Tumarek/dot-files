@@ -10,7 +10,7 @@ set shiftwidth=2
 set statusline+=%F
 color elflord
 highlight ExtraSpaces ctermbg=4 guibg=DarkBlue
-highlight Normal ctermfg=grey
+highlight Normal ctermfg=grey ctermbg=Black
 autocmd BufRead,BufNewFile * match ExtraSpaces / \{2}/
 autocmd TextChanged * :%s/\s\+$//e
 autocmd BufWritePre * :%s/\s\+$//e
